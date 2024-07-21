@@ -7,13 +7,13 @@ UUID V7 library for Golang
 
 * From your project:
 
-```
+```go
 go get github.com/sonitx/uuidv7
 ```
 
 ### Add UUID V7 in your code
 
-```
+```go
 uuidVal, err := uuidv7.GetUUIDv7String()
 if err != nil {
 	fmt.Errorf("Cannot generate UUID V7, error %v", err)
