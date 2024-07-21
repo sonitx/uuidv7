@@ -1,4 +1,4 @@
-package main
+package uuidv7
 
 import (
 	"crypto/rand"
